@@ -1,0 +1,66 @@
+@import "./global/colors";
+@import "./layout/form";
+@import "./layout/footer";
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background: url("../img/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wrapper{
+    height: 100vh;
+}
+
+.main-signIn{
+    .main-signIn__link{
+        .main-signIn__link--itemA{
+            border-bottom: solid 1px $color-gray-dark-a;
+            color: $color-gray-dark-a;
+            display: inline-block;
+            font-size: 0.875rem; 
+        }
+        a{
+            text-decoration: none;
+        }
+        h3{
+            font-size: 0.875rem; 
+            color: $color-gray-dark-a;
+        }
+        span{
+            color: $color-blue;
+        }
+    }
+}
+
+@mixin info-login {    
+    border-radius: 20%;
+    h3{
+        float: right;
+        font-size: 0.875rem;
+        text-align: right;       
+    }
+}
+
+.not-login{
+    @include info-login;
+    background: $color-pink;
+    color: $color-red;
+}
+
+.start-login{
+    @include info-login;
+    background: $color-green;
+    color:  $color-green-a;
+}

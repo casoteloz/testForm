@@ -1,0 +1,23 @@
+@import "../global/colors";
+
+.main-footer{
+    .main-footer__company{
+        background: $color-white;
+        color: $color-gray-dark-b;
+        font-size: 0.75rem;
+        height: 30px;
+        line-height: 2;
+        span{
+            background: $color-gray-dark-c;
+            display: block;
+            float: left;
+            height: 30px;
+            width: 30px;
+            line-height: 3;
+            i{
+                color: $color-white;
+                font-size: 1.125rem;
+            }
+        }
+    }
+}
