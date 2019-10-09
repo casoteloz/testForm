@@ -6,6 +6,8 @@ The form login with notifications of success or error.
 
 The location of the main file this is route "/index.html", You will double left click on file and this load all components.<br>
 
+I did work with npm.<br>
+
 If it becomes necessary to compile the project, only the gulp console command must be executed.
 
 ### Dependencies installed
