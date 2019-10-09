@@ -8,14 +8,14 @@ The location of the main file this is route "/index.html", You will double left 
 
 ### Dependencies installed
 
-"cssnano": "^4.1.10",
-"gulp": "^4.0.2",
-"gulp-autoprefixer": "^7.0.1",
-"gulp-concat": "^2.6.1",
-"gulp-imagemin": "^6.1.1",
-"gulp-postcss": "^8.0.0",
-"gulp-replace": "^1.0.0",
-"gulp-sass": "^4.0.2",
-"gulp-sourcemaps": "^2.6.5",
-"gulp-uglify": "^3.0.2",
+"cssnano": "^4.1.10",<br>
+"gulp": "^4.0.2",<br>
+"gulp-autoprefixer": "^7.0.1",<br>
+"gulp-concat": "^2.6.1",<br>
+"gulp-imagemin": "^6.1.1",<br>
+"gulp-postcss": "^8.0.0",<br>
+"gulp-replace": "^1.0.0",<br>
+"gulp-sass": "^4.0.2",<br>
+"gulp-sourcemaps": "^2.6.5",<br>
+"gulp-uglify": "^3.0.2",<br>
 "imagemin-pngquant": "^8.0.0"
